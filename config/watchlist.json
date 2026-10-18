@@ -1,0 +1,23 @@
+{
+  "_help": "Companies whose careers pages Relay checks. Paste the company's careers link (Greenhouse, Lever or Ashby). Add \"disabled\": true to pause one. Every entry below was checked and returned live jobs on 18 Oct 2026.",
+  "companies": [
+    { "name": "Coinbase", "careers": "https://boards.greenhouse.io/coinbase" },
+    { "name": "Consensys / MetaMask", "careers": "https://boards.greenhouse.io/consensys" },
+    { "name": "Ripple", "careers": "https://boards.greenhouse.io/ripple" },
+    { "name": "Gemini", "careers": "https://boards.greenhouse.io/gemini" },
+    { "name": "Fireblocks", "careers": "https://boards.greenhouse.io/fireblocks" },
+    { "name": "OKX", "careers": "https://boards.greenhouse.io/okx" },
+    { "name": "Kraken", "careers": "https://jobs.ashbyhq.com/kraken.com" },
+    { "name": "Uniswap Labs", "careers": "https://jobs.ashbyhq.com/uniswap" },
+    { "name": "Paradigm", "careers": "https://jobs.ashbyhq.com/paradigm" },
+    { "name": "Phantom", "careers": "https://jobs.ashbyhq.com/phantom" },
+    { "name": "Alchemy", "careers": "https://jobs.ashbyhq.com/alchemy" },
+    { "name": "OP Labs (Optimism)", "careers": "https://jobs.ashbyhq.com/oplabs" },
+    { "name": "Anchorage Digital", "careers": "https://jobs.lever.co/anchorage" }
+  ],
+  "web3career": {
+    "_help": "Needs WEB3CAREER_TOKEN. Each tag is one request; an empty tag means all the latest jobs.",
+    "enabled": true,
+    "tags": ["", "solidity", "rust", "smart-contract", "security"]
+  }
+}

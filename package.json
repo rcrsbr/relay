@@ -1,0 +1,16 @@
+{
+  "name": "relay",
+  "version": "0.1.0",
+  "description": "Relay: BD lead feed for crypto recruitment. Watches job boards and company careers pages, flags hiring signals, sends Telegram alerts.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "collect": "node --disable-warning=ExperimentalWarning src/index.js --once",
+    "demo": "node --disable-warning=ExperimentalWarning scripts/demo.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  }
+}

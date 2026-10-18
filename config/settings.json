@@ -1,0 +1,12 @@
+{
+  "hideCompanies": [],
+  "alerts": {
+    "rules": [
+      { "name": "Hiring burst", "type": "burst", "minRoles": 3 },
+      { "name": "Senior Solidity / Rust / smart contract role", "type": "keywords", "seniorOnly": true,
+        "keywords": ["solidity", "rust", "smart contract", "protocol engineer", "zk"] },
+      { "name": "Hot lead", "type": "heat", "minHeat": 50 },
+      { "name": "Any new role at a watched company", "type": "watched", "enabled": false }
+    ]
+  }
+}
